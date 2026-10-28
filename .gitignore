@@ -1,0 +1,6 @@
+dist/
+__pycache__/
+# Configuração com segredos (chaves da Únicopag, senha do banco) vive só no servidor de cada filial.
+config.php
+config-*.php
+.env*

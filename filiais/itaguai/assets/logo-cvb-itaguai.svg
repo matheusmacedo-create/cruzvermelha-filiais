@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">Cruz Vermelha Brasileira – Itaguaí</title>
+  <desc id="desc">Cruz vermelha oficial com o texto Cruz Vermelha Brasileira e Itaguaí.</desc>
+  <path d="M58 21 h36 v36 h36 v36 h-36 v36 h-36 v-36 h-36 v-36 h36 z" fill="#ee1529"/>
+  <g font-family="'Arial Black', Arial, Helvetica, sans-serif" fill="#1d1d1b">
+    <text x="158" y="56" font-size="31" font-weight="900" letter-spacing=".5">CRUZ VERMELHA</text>
+    <text x="158" y="92" font-size="31" font-weight="900" letter-spacing=".5">BRASILEIRA</text>
+    <text x="158" y="126" font-size="23" font-weight="400" letter-spacing="5" font-family="Arial, Helvetica, sans-serif">ITAGUAÍ</text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+{
+  "slug": "itaguai",
+  "dominio": "cruzvermelhaitaguai.org",
+  "prefixo_js": "cvbi",
+  "cidade": "Itaguaí",
+  "uf": "RJ",
+  "regiao": "Costa Verde",
+
+  "cnpj": {
+    "_fonte": "Comprovante de Inscrição e de Situação Cadastral, emitido pela Receita Federal em 23/06/2026",
+    "numero": "17.119.229/0001-42",
+    "razao_social": "CRUZ VERMELHA BRASILEIRA FILIAL DO MUNICIPIO DE ITAGUAI",
+    "nome": "Cruz Vermelha Brasileira Filial do Município de Itaguaí",
+    "nome_curto": "Filial do Município de Itaguaí",
+    "data_abertura": "03/08/2012",
+    "data_abertura_iso": "2012-08-03",
+    "natureza_juridica": "Associação Privada",
+    "cnae_principal": "88.00-6-00",
+    "atividade_principal": "assistência social sem alojamento"
+  },
+
+  "endereco": {
+    "logradouro": "Estrada Senador Saturnino Braga, 1725",
+    "bairro": "Mazomba",
+    "cep": "23.830-250",
+    "cep_schema": "23830-250"
+  },
+
+  "contato": {
+    "email": "contato@cruzvermelhaitaguai.org",
+    "telefone": "(21) 2232-3319",
+    "telefone_e164": "+552122323319",
+    "telefone_schema": "+55-21-2232-3319",
+    "whatsapp": "(21) 99992-2864",
+    "whatsapp_e164": "5521999922864"
+  },
+
+  "medicao": {
+    "google_analytics": "G-S6RZHLJJX0",
+    "pixel_meta": "2224500131617302",
+    "facebook_verificacao": "82q2nti5su1h0s7tbbn4y20iodkval"
+  },
+
+  "foto_topo": {
+    "arquivo": "itaguai-ilha-da-madeira.webp",
+    "alt": "Baía de Sepetiba vista da Ilha da Madeira, em Itaguaí, com ilhas e montanhas ao fundo",
+    "largura": 1200,
+    "altura": 750,
+    "legenda": "Itaguaí, Baía de Sepetiba."
+  },
+
+  "secao_cidade": {
+    "titulo": "Itaguaí é a nossa casa.",
+    "texto": "Da Baía de Sepetiba às ilhas, do centro histórico à Mazomba, onde fica a nossa sede: a Cruz Vermelha de Itaguaí existe para cuidar de quem vive aqui, com gente da própria cidade.",
+    "fotos": [
+      {"classe": " destaque", "arquivo": "itaguai-barcos-ilha-da-madeira.webp", "largura": 1200, "altura": 900,
+       "alt": "Barcos ancorados nas águas calmas junto à Ilha da Madeira, em Itaguaí",
+       "legenda": "Ilha da Madeira: barcos, pesca e o mar que faz parte da rotina da cidade."},
+      {"classe": "", "arquivo": "itaguai-saveiro-baia-de-sepetiba.webp", "largura": 960, "altura": 720,
+       "alt": "Saveiro ancorado na Baía de Sepetiba diante dos morros de Itaguaí",
+       "legenda": "Baía de Sepetiba"},
+      {"classe": " alto", "arquivo": "itaguai-biblioteca-machado-de-assis.webp", "largura": 720, "altura": 960,
+       "alt": "Prédio histórico da Biblioteca Municipal Machado de Assis, em Itaguaí",
+       "legenda": "Biblioteca Municipal Machado de Assis"},
+      {"classe": "", "arquivo": "itaguai-garca-baia-de-sepetiba.webp", "largura": 960, "altura": 720,
+       "alt": "Garça-branca pousada sobre as pedras à beira da água, em Itaguaí",
+       "legenda": "Natureza da Costa Verde"},
+      {"classe": "", "arquivo": "itaguai-centro-anos-50.webp", "largura": 960, "altura": 720,
+       "alt": "Fotografia antiga do centro de Itaguaí nos anos 1950, com carros e pedestres na rua principal",
+       "legenda": "O centro de Itaguaí nos anos 1950"},
+      {"classe": " faixa", "arquivo": "itaguai-vila-sao-francisco-xavier-1823.webp", "largura": 1280, "altura": 560,
+       "alt": "Gravura antiga da Vila de São Francisco Xavier de Itaguaí, com casario e igreja no alto do morro",
+       "legenda": "Vila de São Francisco Xavier de Itaguaí, desenhada por Maria Graham no início do século XIX."}
+    ],
+    "creditos_html": "Ilha da Madeira, saveiro e garça por Rcandre (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>), recortadas;\n          Biblioteca Municipal, centro nos anos 1950 e gravura de Maria Graham em domínio público.",
+    "acervo_url": "https://commons.wikimedia.org/wiki/Category:Itagua%C3%AD"
+  }
+}
