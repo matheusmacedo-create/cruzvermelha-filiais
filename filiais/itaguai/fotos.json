@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "arquivo": "ilha-da-madeira-barcos-1280.webp",
+    "largura": 1280,
+    "altura": 782,
+    "alt": "Barcos ancorados nas águas calmas junto à Ilha da Madeira, em Itaguaí",
+    "legenda": "Ilha da Madeira, em Itaguaí.",
+    "autor": "Rcandre",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Ilha_da_Madeira,_Itagua%C3%AD.jpg",
+    "editada": true
+  },
+  "ilha": {
+    "arquivo": "ilha-da-madeira-baia-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Baía de Sepetiba vista da Ilha da Madeira, com pedras na margem e ilhas e montanhas ao fundo",
+    "legenda": "Baía de Sepetiba, vista da Ilha da Madeira.",
+    "autor": "Rcandre",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Ilha_da_Madeira,_Itagua%C3%AD-RJ.jpg",
+    "editada": true
+  },
+  "saveiro": {
+    "arquivo": "saveiro-baia-de-sepetiba-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Saveiro ancorado na Baía de Sepetiba diante dos morros de Itaguaí",
+    "legenda": "Saveiro na Baía de Sepetiba.",
+    "autor": "Rcandre",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Saveiro_no_mar,_Itagua%C3%AD.jpg",
+    "editada": true
+  },
+  "garca": {
+    "arquivo": "garca-baia-de-sepetiba-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Garça-branca pousada sobre as pedras à beira da água, em Itaguaí",
+    "legenda": "Garça na Ilha da Madeira.",
+    "autor": "Rcandre",
+    "licenca": "CC BY-SA 3.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Gaivota,_Ilha_da_Madeira,_Itagua%C3%AD.jpg",
+    "editada": true
+  },
+  "centro50": {
+    "arquivo": "centro-anos-50-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Fotografia antiga do centro de Itaguaí nos anos 1950, com carros e pedestres na rua principal",
+    "legenda": "O centro de Itaguaí nos anos 1950.",
+    "autor": "Autor desconhecido",
+    "licenca": "Domínio público",
+    "licenca_url": "https://commons.wikimedia.org/wiki/File:Itaguai_anos_50.jpg",
+    "origem": "https://commons.wikimedia.org/wiki/File:Itaguai_anos_50.jpg",
+    "editada": true
+  },
+  "biblioteca": {
+    "arquivo": "biblioteca-machado-de-assis-900.webp",
+    "largura": 900,
+    "altura": 1200,
+    "alt": "Prédio histórico da Biblioteca Municipal Machado de Assis, em Itaguaí",
+    "legenda": "Biblioteca Municipal Machado de Assis.",
+    "autor": "Almanaque Lusofonista",
+    "licenca": "Domínio público",
+    "licenca_url": "https://commons.wikimedia.org/wiki/File:Biblioteca_Municipal_Machado_de_Assis_(Itagua%C3%AD).jpg",
+    "origem": "https://commons.wikimedia.org/wiki/File:Biblioteca_Municipal_Machado_de_Assis_(Itagua%C3%AD).jpg",
+    "editada": true
+  },
+  "gravura": {
+    "arquivo": "vila-sao-francisco-xavier-1823-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Gravura antiga da Vila de São Francisco Xavier de Itaguaí, com casario e igreja no alto do morro",
+    "legenda": "Vila de São Francisco Xavier de Itaguaí, desenho de Maria Graham.",
+    "autor": "Maria Graham",
+    "licenca": "Domínio público",
+    "licenca_url": "https://commons.wikimedia.org/wiki/File:Maria_graham_itaguai.jpg",
+    "origem": "https://commons.wikimedia.org/wiki/File:Maria_graham_itaguai.jpg",
+    "editada": true
+  }
+}

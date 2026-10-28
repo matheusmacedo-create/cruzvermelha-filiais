@@ -1,0 +1,22 @@
+/* Complementos do site.css para páginas que precisam de mais que o básico (por ora, a política de
+   privacidade completa, com fichas de tratamento e tabela de cookies). Só é carregado pelas páginas
+   que pedem "complementos": true no filial.json, para não mudar o site.css das outras filiais. */
+.politica .indice { background: var(--papel); border: 1px solid var(--linha); border-radius: 12px; padding: 16px 20px; margin: 24px 0; }
+.politica .indice p { margin: 0 0 6px; font-weight: 700; }
+.politica .indice ol { margin: 0; padding-left: 20px; }
+.politica h2 { scroll-margin-top: 96px; }
+.politica .ficha { background: var(--papel); border: 1px solid var(--linha); border-left: 4px solid var(--vermelho); border-radius: 12px; padding: 16px 20px; margin: 0 0 12px; }
+.politica .ficha h3 { margin: 0 0 8px; }
+.politica .ficha dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; gap: 6px 16px; font-size: .95rem; }
+.politica .ficha dt { font-weight: 700; color: var(--preto); }
+.politica .ficha dd { margin: 0; }
+.politica .tabela { width: 100%; overflow-x: auto; }
+.politica table { width: 100%; border-collapse: collapse; background: var(--papel); border: 1px solid var(--linha); font-size: .9rem; }
+.politica th, .politica td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.politica th { background: var(--fundo-suave); color: var(--preto); }
+.politica code { font-size: .88em; background: var(--fundo-suave); padding: 1px 5px; border-radius: 4px; }
+.politica .data { color: var(--suave); }
+@media (max-width: 560px) {
+  .politica .ficha dl { grid-template-columns: 1fr; gap: 2px; }
+  .politica .ficha dd { margin-bottom: 8px; }
+}

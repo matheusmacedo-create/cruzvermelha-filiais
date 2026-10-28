@@ -38,7 +38,8 @@ def main() -> int:
         print(f'gere antes: python3 scripts/gerar.py {slug}')
         return 2
     iguais, diferentes, recomprimidas = 0, [], 0
-    for arquivo in sorted(p for p in dist.rglob('*') if p.is_file()):
+    # .htaccess nunca é servido ao público: confira-o pela listagem de arquivos do hPanel.
+    for arquivo in sorted(p for p in dist.rglob('*') if p.is_file() and p.name != '.htaccess'):
         rel = arquivo.relative_to(dist).as_posix()
         caminho = rel[:-len('index.html')] if rel.endswith('index.html') else rel
         no_ar = baixar(f'https://{dominio}/{caminho}')

@@ -1,0 +1,59 @@
+  <!-- Medição só com consentimento (LGPD; Guia de Cookies da ANPD). A escolha fica no cookie
+       __PREFIXO___consentimento, gravado pelo aviso de cookies (/consentimento.js). Sem escolha, ou com "não",
+       nem o gtag.js nem o fbevents.js são baixados: as chamadas abaixo só ficam na fila. Com "sim",
+       eles entram e a fila sai nessa hora. Não volte a pôr o <noscript> com a imagem do Pixel:
+       ele dispara o PageView sem consentimento. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    gtag('config', '__GA__');
+  </script>
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[]}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  // Sem fbq('consent', 'revoke') antes do init: o fbevents.js só é baixado com consentimento, e um revoke
+  // na fila travaria o Pixel (o grant ficaria atrás do PageView e nada seria enviado).
+  fbq('init', '__PIXEL__');
+  fbq('track', 'PageView');
+  </script>
+  <script>
+    (function () {
+      var GTAG = 'https://www.googletagmanager.com/gtag/js?id=__GA__';
+      var PIXEL = 'https://connect.facebook.net/en_US/fbevents.js';
+      var baixados = {};
+      function ler() {
+        var m = document.cookie.match(/(?:^|;\s*)__PREFIXO___consentimento=([^;]+)/);
+        if (!m) return null;
+        var p = {};
+        try { decodeURIComponent(m[1]).split('&').forEach(function (par) { var i = par.indexOf('='); if (i > 0) p[par.slice(0, i)] = par.slice(i + 1); }); } catch (e) { return null; }
+        return p.v === '1' ? { estatistica: p.e === '1', marketing: p.m === '1' } : null;
+      }
+      function baixar(src) {
+        if (baixados[src]) return;
+        baixados[src] = 1;
+        var s = document.createElement('script'); s.async = true; s.src = src; document.head.appendChild(s);
+      }
+      function aplicar(c) {
+        c = c || ler();
+        if (!c) return;
+        window['ga-disable-__GA__'] = !c.estatistica;
+        gtag('consent', 'update', {
+          analytics_storage: c.estatistica ? 'granted' : 'denied',
+          ad_storage: c.marketing ? 'granted' : 'denied',
+          ad_user_data: c.marketing ? 'granted' : 'denied',
+          ad_personalization: c.marketing ? 'granted' : 'denied'
+        });
+        fbq('consent', c.marketing ? 'grant' : 'revoke');
+        if (c.estatistica) baixar(GTAG);
+        if (c.marketing) baixar(PIXEL);
+      }
+      window.__PREFIXO__Medicao = { ler: ler, aplicar: aplicar };
+      aplicar();
+    })();
+  </script>

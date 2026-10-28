@@ -1,0 +1,155 @@
+{
+  "slug": "petropolis",
+  "dominio": "cruzvermelhapetropolis.org",
+  "atualizado_em": "2026-10-27",
+  "filial": {
+    "_fonte": "Comprovante de Inscrição no CNPJ emitido em 21/10/2026 (README do repositório _cruzvermelhapetropolis)",
+    "nome": "Cruz Vermelha Brasileira – Filial do Município de Petrópolis",
+    "curto": "Cruz Vermelha Petrópolis",
+    "cnpj": "09.198.238/0001-48",
+    "rua": "Rua Carlos Gomes, 6",
+    "bairro": "Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "cep": "25680-120",
+    "email": "cvbpetropolis@gmail.com",
+    "telefones": [
+      "(24) 2243-4758",
+      "(24) 3113-0074"
+    ]
+  },
+  "logo": {
+    "arquivo": "/assets/otim/logo-cvb-petropolis-520.webp",
+    "largura": 520,
+    "altura": 156,
+    "alt": "Cruz Vermelha Brasileira – Petrópolis"
+  },
+  "logo_organizacao": "/assets/logo-cvb-petropolis.png",
+  "menu": [
+    {
+      "href": "/quem-somos/",
+      "rotulo": "Quem somos"
+    },
+    {
+      "href": "/voluntariado/",
+      "rotulo": "Voluntariado"
+    },
+    {
+      "href": "/prevencao/",
+      "rotulo": "Prevenção"
+    },
+    {
+      "href": "/principios-fundamentais/",
+      "rotulo": "Princípios"
+    },
+    {
+      "href": "/contato/",
+      "rotulo": "Contato"
+    }
+  ],
+  "paginas": [
+    {
+      "caminho": "/",
+      "arquivo": "inicio.html",
+      "titulo": "Cruz Vermelha Brasileira – Petrópolis",
+      "descricao": "Filial do Município de Petrópolis da Cruz Vermelha Brasileira: voluntariado, doações, prevenção e contato."
+    },
+    {
+      "caminho": "/quem-somos/",
+      "arquivo": "quem-somos.html",
+      "titulo": "Quem somos – Cruz Vermelha Petrópolis",
+      "descricao": "A filial de Petrópolis da Cruz Vermelha Brasileira: missão, o que fazemos e o Movimento Internacional.",
+      "foto_social": "rionegro",
+      "topo": {
+        "foto": "rionegro",
+        "eyebrow": "Quem somos",
+        "titulo": "A Cruz Vermelha em Petrópolis",
+        "texto": "A filial do Município de Petrópolis da Cruz Vermelha Brasileira."
+      }
+    },
+    {
+      "caminho": "/voluntariado/",
+      "arquivo": "voluntariado.html",
+      "titulo": "Voluntariado – Cruz Vermelha Petrópolis",
+      "descricao": "Como ser voluntário da Cruz Vermelha Brasileira em Petrópolis.",
+      "foto_social": "serra",
+      "topo": {
+        "foto": "serra",
+        "eyebrow": "Voluntariado",
+        "titulo": "Seja voluntário em Petrópolis",
+        "texto": "Ajudar perto de casa, com formação e com uma equipe."
+      }
+    },
+    {
+      "caminho": "/doe/",
+      "arquivo": "doe.html",
+      "titulo": "Doe – Cruz Vermelha Petrópolis",
+      "descricao": "Como doar para a filial de Petrópolis da Cruz Vermelha Brasileira, sempre em nome do CNPJ da filial.",
+      "foto_social": "cristal",
+      "topo": {
+        "foto": "cristal",
+        "eyebrow": "Doe",
+        "titulo": "Sua doação fica em Petrópolis",
+        "texto": "Cada contribuição ajuda a filial a manter o trabalho humanitário na cidade."
+      }
+    },
+    {
+      "caminho": "/prevencao/",
+      "arquivo": "prevencao.html",
+      "titulo": "Prevenção – Cruz Vermelha Petrópolis",
+      "descricao": "Orientações para antes, durante e depois de chuvas fortes e emergências em Petrópolis.",
+      "foto_social": "serra",
+      "topo": {
+        "foto": "serra",
+        "eyebrow": "Prevenção",
+        "titulo": "Preparados para a chuva na serra",
+        "texto": "Orientações simples para antes, durante e depois de uma emergência."
+      }
+    },
+    {
+      "caminho": "/principios-fundamentais/",
+      "arquivo": "principios.html",
+      "titulo": "Princípios Fundamentais – Cruz Vermelha Petrópolis",
+      "descricao": "Os sete Princípios Fundamentais do Movimento Internacional da Cruz Vermelha e do Crescente Vermelho.",
+      "foto_social": "rionegro",
+      "topo": {
+        "foto": "rionegro",
+        "eyebrow": "O que nos guia",
+        "titulo": "Os sete Princípios Fundamentais",
+        "texto": "Proclamados em 1965, em Viena, valem para todo o Movimento Internacional da Cruz Vermelha e do Crescente Vermelho."
+      }
+    },
+    {
+      "caminho": "/contato/",
+      "arquivo": "contato.html",
+      "titulo": "Contato – Cruz Vermelha Petrópolis",
+      "descricao": "Endereço, telefones e e-mail da Cruz Vermelha Brasileira em Petrópolis.",
+      "foto_social": "imperial",
+      "topo": {
+        "foto": "imperial",
+        "eyebrow": "Contato",
+        "titulo": "Fale com a filial",
+        "texto": "Estamos no Centro de Petrópolis."
+      }
+    },
+    {
+      "caminho": "/privacidade/",
+      "arquivo": "privacidade.html",
+      "titulo": "Privacidade – Cruz Vermelha Petrópolis",
+      "descricao": "Como o site da Cruz Vermelha Petrópolis trata dados pessoais."
+    },
+    {
+      "caminho": "/creditos/",
+      "arquivo": "creditos.html",
+      "titulo": "Créditos das fotos – Cruz Vermelha Petrópolis",
+      "descricao": "Autoria e licença das fotos de Petrópolis usadas no site."
+    },
+    {
+      "caminho": "/404.html",
+      "arquivo": "404.html",
+      "titulo": "Página não encontrada – Cruz Vermelha Petrópolis",
+      "descricao": "Página não encontrada.",
+      "no_sitemap": false
+    }
+  ]
+}

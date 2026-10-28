@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "arquivo": "palacio-de-cristal-1920.webp",
+    "largura": 1920,
+    "altura": 1173,
+    "alt": "Palácio de Cristal, em Petrópolis, iluminado ao entardecer",
+    "legenda": "Palácio de Cristal, em Petrópolis.",
+    "autor": "Wilfredor",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_de_Cristal_(Petr%C3%B3polis).jpg",
+    "editada": true
+  },
+  "serra": {
+    "arquivo": "serra-maria-comprida-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Montanhas da serra de Petrópolis, com a Pedra Maria Comprida",
+    "legenda": "Serra de Petrópolis, com a Pedra Maria Comprida.",
+    "autor": "Filipo tardim",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Maria_Comprida.jpg",
+    "editada": true
+  },
+  "imperial": {
+    "arquivo": "museu-imperial-1200.webp",
+    "largura": 1200,
+    "altura": 800,
+    "alt": "Fachada iluminada do Museu Imperial, em Petrópolis, à noite",
+    "legenda": "Museu Imperial, no Centro de Petrópolis.",
+    "autor": "Oscar liberal",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:O_Pal%C3%A1cio.jpg",
+    "editada": true
+  },
+  "cristal": {
+    "arquivo": "quitandinha-1920.webp",
+    "largura": 1920,
+    "altura": 1219,
+    "alt": "Palácio Quitandinha e o lago, em Petrópolis",
+    "legenda": "Palácio Quitandinha e o lago, em Petrópolis.",
+    "autor": "Wilfredor",
+    "licenca": "CC0",
+    "licenca_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Quitandinha,_Petropolis.jpg",
+    "editada": true
+  },
+  "rionegro": {
+    "arquivo": "palacio-rio-negro-1600.webp",
+    "largura": 1600,
+    "altura": 1071,
+    "alt": "Fachada amarela do Palácio Rio Negro, em Petrópolis",
+    "legenda": "Palácio Rio Negro, em Petrópolis.",
+    "autor": "Wilfredor",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:President%27s_Summer_home,_Rio_Negro_Palace,_Petr%C3%B3polis,_Rio_de_Janeiro.jpg",
+    "editada": true
+  }
+}
